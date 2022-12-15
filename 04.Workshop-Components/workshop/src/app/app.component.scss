@@ -1,0 +1,51 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 4.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px dashed #999;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    background-color: #4ebced;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* header  */
+
+
+
+/* mini-navbar */
+
+.mini-navbar ul {
+    background-color: #6ba1b8;
+    border-radius: 5px;
+}
+
+.mini-navbar ul li+li {
+    border-left: 1px solid lightgrey;
+    padding-left: .5em;
+}
+
+/* main  */
+
+main {
+    width: 50%;
+}
+
+/* theme list item */
+

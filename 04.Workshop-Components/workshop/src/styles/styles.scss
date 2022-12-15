@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('reset.scss');
+@import url('layout.scss');
+@import url('typography.scss');
+@import url('responsive.scss');
+
+body {
+    max-width: 1366px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+}
